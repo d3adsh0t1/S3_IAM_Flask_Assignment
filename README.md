@@ -2,9 +2,7 @@
 
 I implemented S3 and IAM service for my website :
   - S3 : Create Bucket , Delete Bucket , Upload File , Download File
-  - IAM : List Policies (I am using python from backend allowed only "S3","IAM","EC2" Policies to 
-    be shown. THis can be changes in app.py -> def iam() -> edit allowed list if want to list 
-    some other services' policy. 
+  - IAM : Listed Policies and created different options for user and groups both.
     
 - List Group , 
 - Create Group (Create a group and attach as many as all allowed policies to a group) , 
